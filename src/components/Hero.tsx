@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div
       ref={container}
-      className="relative flex items-center justify-center h-screen overflow-hidden"
+      className="relative flex items-center justify-center h-screen overflow-hidden bg-[#0d0d0d]"
     >
       <motion.div
         style={{ y }}
@@ -25,15 +25,15 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-70">Премиум электронные сигареты</p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
+      <div className="relative z-10 text-center">
+        <p className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 text-red-500" style={{textShadow: '0 0 10px #ff1a1a'}}>Премиум электронные сигареты</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 neon-white">
           VAPELINK
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
+        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 mb-8 text-white/80">
           Изысканный вкус и безупречное качество — для тех, кто выбирает лучшее
         </p>
-        <button className="border border-white text-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-white hover:text-black transition-all duration-300">
+        <button className="neon-btn-red px-8 py-3 uppercase tracking-widest text-sm cursor-pointer">
           Смотреть каталог
         </button>
       </div>
