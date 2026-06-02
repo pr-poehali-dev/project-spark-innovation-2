@@ -19,19 +19,23 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/c46659b3-b3a5-4969-995e-06035aba3757/files/4917c0c5-b70a-44ac-9055-93325cc1e16f.jpg"
+          alt="VapeLink premium devices"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-70">Премиум электронные сигареты</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          VAPELINK
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
+          Изысканный вкус и безупречное качество — для тех, кто выбирает лучшее
         </p>
+        <button className="border border-white text-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-white hover:text-black transition-all duration-300">
+          Смотреть каталог
+        </button>
       </div>
     </div>
   );
